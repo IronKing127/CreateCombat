@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create_combat:block/neon_tube_block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "create_combat:block/neon_tube_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_combat:block/neon_tube_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "create_combat:block/neon_tube_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "create_combat:block/neon_tube_block"
+    },
+    "facing=west": {
+      "model": "create_combat:block/neon_tube_block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
