@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "create_combat",
+	"version": "${version}",
+	"name": "Create Combat",
+	"description": "Exploration features following the aesthetic and functional theme of the create mod",
+	"authors": [
+		"Ironking127"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/create_combat/textures/item/rose_katana.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ironking127.create_combat.CreateCombat"
+		],
+		"client": [
+			"com.ironking127.create_combat.CreateCombatClient"
+		]
+	},
+	"mixins": [
+		"create_combat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
