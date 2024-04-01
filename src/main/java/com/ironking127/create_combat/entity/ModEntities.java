@@ -15,8 +15,8 @@ public class ModEntities {
 	Registries.ENTITY_TYPE,
 			new Identifier(CreateCombat.MODID, "neon_tube_entity"),
 			FabricEntityTypeBuilder.<NeonTubeEntity>create(SpawnGroup.MISC, NeonTubeEntity::new)
-					.dimensions(EntityDimensions.fixed(0.25F, 0.25F)) // dimensions in Minecraft units of the projectile
-					.trackRangeBlocks(64).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
+					.dimensions(EntityDimensions.fixed(0.15F, 0.15F)) // dimensions in Minecraft units of the projectile
+					.trackRangeBlocks(128).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
 					.build() // VERY IMPORTANT DONT DELETE FOR THE LOVE OF GOD PSLSSSSSS
 	);
 

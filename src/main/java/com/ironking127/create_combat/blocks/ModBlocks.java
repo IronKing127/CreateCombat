@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 	public static final Block NeonTubeBlock = registerBlock("neon_tube_block",
-			new Block(FabricBlockSettings.copyOf(Blocks.END_ROD)));
+			new NeonTubeBlock(FabricBlockSettings.copyOf(Blocks.END_ROD)));
 	private static Block registerBlock(String name, Block block) {
 		return Registry.register(Registries.BLOCK, new Identifier(CreateCombat.MODID, name), block);
 	}
